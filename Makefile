@@ -116,7 +116,7 @@ PORTSREFURL?=	https://git.FreeBSD.org/ports.git
 PORTSREFDIR?=	${ROOTDIR}/freebsd-ports
 PORTSREFBRANCH?=main
 
-SRCBRANCH?=	A30
+SRCBRANCH?=	stable/${ABI}
 SRCDIR?=	${ROOTDIR}/src
 
 # A couple of meta-targets for easy use and ordering:

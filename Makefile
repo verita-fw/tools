@@ -76,7 +76,7 @@ _CONFIGDIR=	${DIR:C/\/build\.conf$//}
 
 # Bootstrap the build options if not set:
 
-NAME?=		Muro
+NAME?=		OPNsense
 TYPE?=		${NAME:tl}
 SUFFIX?=	# empty
 _ARCH!=		uname -p
